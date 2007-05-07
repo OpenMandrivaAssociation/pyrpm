@@ -1,6 +1,6 @@
 Summary:	A rpm implementation purely in Python
 Name:		pyrpm
-Version:	0.68
+Version:	0.69
 Release:	%mkrel 1
 License:	GPL
 Group:		System/Base
@@ -50,5 +50,3 @@ mkdir -p %{buildroot}/var/cache/pyrpm
 %{_datadir}/pyrpm/pyrpm/database/*.py*
 %{_datadir}/pyrpm/pyrpm/installer/*.py*
 %{_var}/cache/pyrpm
-
-
