@@ -1,7 +1,7 @@
 Summary:	A rpm implementation purely in Python
 Name:		pyrpm
 Version:	0.69
-Release:	%mkrel 1
+Release:	%mkrel 2
 License:	GPL
 Group:		System/Base
 URL:		http://people.redhat.com/laroche/pyrpm/
