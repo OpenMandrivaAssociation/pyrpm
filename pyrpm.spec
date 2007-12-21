@@ -10,6 +10,7 @@ BuildRequires:	libpython-devel		>= 2.5
 BuildRequires:	python-libxml2
 Requires:	python-urlgrabber
 BuildArch:	noarch
+BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
 
 %description
 PyRPM is an experimental project to look at RPM package management. 
