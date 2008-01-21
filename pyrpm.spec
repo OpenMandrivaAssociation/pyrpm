@@ -1,8 +1,8 @@
 Summary:	A rpm implementation purely in Python
 Name:		pyrpm
-Version:	0.69
-Release:	%mkrel 2
-License:	GPL
+Version:	0.70
+Release:	%mkrel 1
+License:	GPLv2+
 Group:		System/Base
 URL:		http://people.redhat.com/laroche/pyrpm/
 Source:		%{name}-%{version}.tar.bz2
@@ -37,6 +37,7 @@ mkdir -p %{buildroot}/var/cache/pyrpm
 [ "%{buildroot}" != "/" ] && rm -rf %{buildroot}
 
 %files
+%defattr(-,root,root)
 %doc doc/*.html doc/*.txt
 %attr(755,root,root) %{_bindir}/%{name}*
 %attr(755,root,root) %{_bindir}/old*
