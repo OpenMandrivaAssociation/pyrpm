@@ -4,7 +4,7 @@ Version:	0.70
 Release:	%mkrel 7
 License:	GPLv2+
 Group:		System/Base
-URL:		http://people.redhat.com/laroche/pyrpm/
+URL:		https://people.redhat.com/laroche/pyrpm/
 Source:		%{name}-%{version}.tar.bz2
 BuildRequires:	libpython-devel		>= 2.5
 BuildRequires:	python-libxml2
