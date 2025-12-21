@@ -6,6 +6,11 @@ License:	GPLv2+
 Group:		System/Base
 URL:		https://people.redhat.com/laroche/pyrpm/
 Source:		%{name}-%{version}.tar.bz2
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	libpython-devel		>= 2.5
 BuildRequires:	python-libxml2
 Requires:	python-urlgrabber
